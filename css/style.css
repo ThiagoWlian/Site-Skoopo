@@ -1,0 +1,479 @@
+
+body{
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.white{
+  color: white;
+}
+
+.Bronze{
+  color: #DF8047;
+}
+
+.Pagina{
+  width: 100%;
+  height: 3500px;
+}
+
+.Cabecario{
+  width: 100%;
+  height: 16%;
+  border: 1px solid Black;
+  border-bottom: red;
+  background-image: url(../images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.Menu{
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+  background-color: black;
+  z-index: 1;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.Conteudo{
+  width: 100%;
+  height: 97%;
+  box-sizing: border-box;
+}
+
+.Robo{
+  width: 100%;
+  height: 13%;
+  background-color: #111010;
+  padding-top: 3%;
+  box-sizing: border-box;
+}
+
+.carousel{
+  display: flex;
+}
+
+.Central{
+  padding-left: 4%;
+  padding-right: 7%;
+}
+
+.TituloCabecario{
+  font-size: 185%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.TituloCabecario h1{
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.TituloCabecario p{
+  font-size: 100%;
+  font-weight: 500;
+}
+
+.TituloConteudo{
+  width: 100%;
+  height: 10%;
+  font-size: 185%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.TituloConteudo h2{
+  font-size: 130%;
+  font-weight: 500;
+}
+
+.TituloConteudo p{
+  margin-top: 0.5%;
+  font-size: 70%;
+  font-weight: 500;
+}
+
+.OrganizadorContainers{
+  width: 68%;
+  height: 80%;
+}
+
+.Indicador{
+  width: 10%;
+  height: 5%;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 93%;
+}
+
+.IndicadorCirculo{
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-left: 1%;
+
+}
+
+.IndicadorActive{
+  background-color: white;
+}
+
+.IndicadorActiveReverse{
+  background-color: black;
+}
+
+.IndicadorReverse{
+  border: 1px solid black;
+}
+
+.ConteudoSliderRobo{
+  height: 300px;
+  display: flex;
+}
+
+.slide{
+  margin: auto;
+  width: 90%;
+}
+
+.Imagem{
+  width: 25%;
+  height: 75%;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+
+.Seta{
+  margin-top: 9%;
+  cursor: pointer;
+}
+
+.TextoSlider{
+  width: 100%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextoSlider h3{
+  font-size: 140%;
+  font-weight: 500;
+}
+
+.TextoSlider p{
+  margin-top: 2%;
+  font-size: 100%;
+  font-weight: 500;
+  text-align:justify;
+  line-height: 120%;
+  margin-left: 1%;
+}
+
+.iconenext{
+  background-image: url(../images/AvancarSlider.png);
+}
+
+.Imgcover{
+  width: 100%;
+  height: 100%;
+}
+
+.MarginBnone{
+  margin-bottom: none;
+}
+.MarginTnone{
+  margin-Top: none;
+}
+
+.MarginLeft{
+  margin-left: 5%;
+}
+
+.Black{
+  background-color: black;
+}
+
+.Diferenciais{
+  width: 100%;
+  height: 20%;
+  background-image: url('../images/bannerroboslide.jpg');
+  background-repeat: no-repeat;;
+  background-size:cover;
+  padding-top: 2%;
+}
+
+.Titulo{
+  width: 45%;
+  margin: auto;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.Titulo h2
+{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.Titulo p
+{
+  font-size: 25px;
+}
+
+.BlocosDiferenciais
+{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.Bloco
+{
+  height: 100%;
+  margin: auto;
+  margin-left: 5.6%;
+}
+
+.Bloco h3
+{
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  margin: auto;
+  width: 90%;
+  margin-top: 3%;
+}
+
+.Bloco p
+{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.ImagemDiferencial{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  height: 50%;
+}
+
+.ImagemDiferencial img{
+  margin: auto;
+  position: absolute;
+  top: 40px; left: 0;right: 0;
+}
+
+.Robocup{
+  width: 100%;
+  height: 12%;
+  padding-top: 3%;
+}
+
+.Galeria{
+  width: 100%;
+  height: 20%;
+  margin-top: 2.5%;
+  background-color: Black;
+  padding-top: 3%;
+  opacity: 1;
+}
+
+.Imagens{
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+}
+
+.Conjunto
+{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0.7%;
+
+}
+
+.ImgFull{
+  width: 72%;
+  height: 100%;
+  margin-left: 7%;
+  border: 1px solid white;
+  background-size: cover;
+}
+
+
+.Mini{
+  width: 20%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 12.8%;
+}
+
+.ImgMin1,.ImgMin2,.ImgMin3,.ImgMin4{
+  width: 80%;
+  height: 48.6%;
+  margin-bottom: 2%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.Equipe{
+  width: 100%;
+  height: 13%;
+  padding-top: 3%;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.Integrantes{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  margin: auto;
+}
+
+.Integrante{
+  width: 17%;
+  height: 100%;
+  margin: auto;
+}
+
+.Integrante h4{
+  margin-top: 6%;
+  font-weight: 600;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.Integrante p{
+  margin-top: 6%;
+  text-align: center;
+  margin: auto;
+}
+
+.foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.img1{
+  background-image: url(../images/cayo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img2{
+  background-image: url(../images/marcos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3{
+  background-image: url(../images/jesus.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img4{
+  background-image: url(../images/thiago.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Contato{
+  width: 100%;
+  height: 22%;
+  background-color: #369;
+  padding-top: 3%;
+}
+
+.ContatoConteudo{
+  display: flex;
+  width: 70%;
+  height: 80%;
+  margin: auto;
+}
+
+.Campos{
+  width: 75%;
+  height: 80%;
+}
+
+.Campo{
+  width: 100%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  border: none;
+}
+
+.Campos label{
+  font-size: 19px;
+  margin-bottom: 0.5%;
+  color: #D8CEF6;
+}
+
+.Campos button{
+  padding: 2.5% 4% 2.5% 4%;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 3%;
+  font-size: 17px;
+  font-weight: 600;
+  color: #D8CEF6;
+  background-color: rgba(0,0,0,0);
+}
+
+.Informacoes{
+  width: 20%;
+  height: 100%;
+  margin-left: 5%;
+}
+
+.Informacoes h4{
+  color: #D8CEF6;
+  font-size: 25px;
+  margin-bottom: 12%;
+}
+
+.Informacoes p{
+  color: white;
+  margin-bottom: 12%;
+  line-height: 135%;
+}
+
+.footer{
+  width: 100%;
+  height: 2%;
+  background-color: black;
+  padding-top: 2%;
+}
+
+.footer p {
+  margin-left: 14%;
+  color: white;
+}

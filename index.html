@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+  </head>
+  <body>
+    <main class="Pagina">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-inverse Menu">
+            <a class="navbar-brand" href="#">Skopos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#Inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Construcao">Contrução do robô</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Robocup">Robocup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Equipe">Equipe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      <header class="Cabecario container-fluid img-fluid">
+        <scroll-page id="Inicio"></scroll-page>
+        <div class="TituloCabecario">
+          <h1 class="white">SKOPOS</h1>
+          <p class="white">"Aquele que vigia e protege"</p>
+        </div>
+      </header>
+      <section class="Conteudo">
+        <scroll-page id="Construcao"></scroll-page>
+        <div class="Robo" id="Skopos">
+          <div class="Titulo white">
+            <h2 class="Bronze">Sua Construção</h2>
+            <p>"Um breve resumo sobre o desenvolvimento do robô"</p>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="Seta Setaprev">
+              <img src="images/AvancarSlider.png" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/pecas.jpg" class="Imgcover img-fluid" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider white">
+                      <h3 class="Bronze">1º Etapa - Juntar materiais e <br />peças</h3>
+                      <p>O primeiro passo para a construção do robô foi procurar e adquirir todas as peças e materiais. Os alunos foram orientados a comprar os seguintes objetos: LED 3mm, besistor de filme de carbono, barra de pinos, motor de 5V / 330RPM, motor de 5V / 150RPM, chave de fim de curso, suporte para cano, parafusos, porcas, arruelas, Shield de Motor, Shield de Bluetooth HC-06, Arduino UNO R3.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo IndicadorActive">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/baseinferior.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider white">
+                      <h3 class="Bronze">2º Etapa - Construção da base <br/>inferior</h3>
+                      <p>A base inferior foi confeccionada utilizando MDF  e cortada por uma máquina de corte a laser. Ela foi projetada de uma forma que protegesse os componentes, como por exemplo  o local das rodas, que estão para dentro da base, onde nada pode acertá-las.
+                        Todas as  peças foram distribuídas pela base para igualar o peso e melhorar o seu equilíbrio.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorActive">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/basesuperior.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider white">
+                      <h3 class="Bronze">3º Etapa - Construção da base <br/>superior</h3>
+                      <p>A base superior foi criada também com MDF, ela tem o intuito de gerar mais proteção para o balão  e posicionar a arma corretamente, melhorando seu ângulo de ataque. Ela utiliza a parte inferior do robô para se sustentar, juntamente  com outros materiais que servem como pilar, como       pequenas barras de metal, porcas e arruelas.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorActive">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/locomocao.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider white">
+                      <h3 class="Bronze">4º Etapa - Sistema de locomoção</h3>
+                      <p>Para o sistema de locomoção, foram utilizadas duas rodas de borracha e dois motores de 330RPM, que foram presos um ao outro utilizando cola. Os motores foram fixados a base com suporte de canos  e alguns parafusos.</p>
+                      <p>O acionamento dos motores ocorre por um aplicativo, que foi disponibilizado pelos professores.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorActive">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/armarobo.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider white">
+                      <h3 class="Bronze">5º Etapa - Construção da arma</h3>
+                      <p>A arma do Skopos foi desenvolvida com MDF, isopor  e agulhas. Ela foi fixada a um motor que fica na ponta da base superior, e é acionada sempre que um dos sensores que ficam envolta do robô forem ativados, tendo um tempo de ativação de 15 segundos.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorActive">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Seta Setanext">
+              <img src="images/VoltarSlider.png" href="#carouselExampleIndicators" role="button" data-slide="next">
+            </div>
+        </div>
+        </div>
+        <div class="Diferenciais container-fluid">
+          <div class="Titulo">
+            <h2>Diferenciais do <br/>nosso robô</h2>
+          </div>
+          <div class="BlocosDiferenciais row">
+            <div class="Bloco col-12 col-sm-12 col-md-4 col-lg-3">
+              <div class="ImagemDiferencial ">
+                <img src="images/arma.png" alt="">
+              </div>
+              <h3>Arma</h3>
+              <p>A nossa arma foi desenvolvida para ter um longo alcance e uma grande área de contato,  estabelecendo assim, uma grande vantagem em comparação aos outros competidores.</p>
+            </div>
+            <div class="Bloco col-12 col-sm-12 col-md-4 col-lg-3">
+              <div class="ImagemDiferencial">
+                <img src="images/roda.png" width="150px" height="150px" alt="">
+              </div>
+              <h3>Posição das Rodas</h3>
+              <p>Nossas rodas foram posicionadas para dentro do robô, impedindo assim, qualquer travamento ou dano gerado pelo robô inimigo.</p>
+            </div>
+            <div class="Bloco col-12 col-sm-12 col-md-4 col-lg-3">
+              <div class="ImagemDiferencial">
+                <img src="images/angulo.png" width="150px" height="150px" alt="">
+              </div>
+              <h3>Posição das Rodas</h3>
+              <p>A base superior possui uma leve inclinação, para que a nossa arma atinja lugares mais altos. Essa inclinação também gera uma melhor defesa, pois bloqueia armas com pouco alcance.</p>
+            </div>
+          </div>
+        </div>
+        <scroll-page id="Robocup"></scroll-page>
+        <div class="Robocup">
+          <div class="Titulo">
+            <h2 class="Bronze">Robocup</h2>
+            <p>"Um breve resumo sobre a Robocup"</p>
+          </div>
+          <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+            <div class="Seta Setaprev">
+              <img src="images/AvancarSlider.png" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                      <img src="images/Robocup.jpg" class="Imgcover .img-fluid." alt="">
+                    </div>
+                    <div class="OrganizadorContainers">
+                      <div class="TextoSlider">
+                        <h3 class="Bronze">O que é ?</h3>
+                        <p>Criado em 2005, o evento ROBOCUP trata-se de uma competição entre alunos do 1° ano de Sistemas de Informação. Eles devem projetar robôs que transportam um balão e que possuam uma arma. O objetvo é estourar os balões de seus adversários antes que eles estourem o seu. Ela ocorre todo ano na Faculdade de Informática e Administração Paulista (Fiap).</p>
+                      </div>
+                      <div class="Indicador">
+                        <div class="IndicadorCirculo">
+                        </div>
+                        <div class="IndicadorCirculo IndicadorReverse IndicadorActiveReverse">
+                        </div>
+                        <div class="IndicadorCirculo IndicadorReverse">
+                        </div>
+                        <div class="IndicadorCirculo IndicadorReverse">
+                        </div>
+                        <div class="IndicadorCirculo IndicadorReverse">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/oquee.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider">
+                      <h3 class="Bronze">Como funciona ?</h3>
+                      <p>Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.</p>
+                      <p>Para proporcionar uma competição limpa e justa, foi criado um livro de regras, que limitam desde o tamanho do robô, até os tipos de armas que podem ser utilizadas.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse IndicadorActiveReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/1etapa.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider">
+                      <h3 class="Bronze">1º Etapa</h3>
+                      <p>A 1º etapa da competição ocorre na própria faculdade, onde todos os participantes se enfrentam em batalhas 1vs1 para decidir quem passará para a próxima fase, restando apenas 8 pessoas no final.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse IndicadorActiveReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ConteudoSliderRobo">
+                  <div class="Imagem">
+                    <img src="images/Next2.jpg" class="Imgcover" alt="">
+                  </div>
+                  <div class="OrganizadorContainers">
+                    <div class="TextoSlider">
+                      <h3 class="Bronze">2º Etapa</h3>
+                      <p>A final do campeonato acontece na Next, que é realizada na Casa das Caldeiras, onde os 8 finalistas disputam em um formato de mata-mata, para decidir o ganhador da Robocup.</p>
+                      <p>Além da Robocup, a Next  possui diversos  campeonatos e apresentações, como: RoboCombat, Security Cup, Startup One.</p>
+                    </div>
+                    <div class="Indicador">
+                      <div class="IndicadorCirculo">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse">
+                      </div>
+                      <div class="IndicadorCirculo IndicadorReverse IndicadorActiveReverse">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Seta Setanext">
+              <img src="images/VoltarSlider.png" href="#carouselExampleIndicators1" role="button" data-slide="next">
+            </div>
+          </div>
+        </div>
+        <scroll-page id="Galeria"></scroll-page>
+        <div class="Galeria Central container-fluid">
+          <div class="Titulo">
+            <h2 class="white">Galeria</h2>
+          </div>
+          <div class="Imagens">
+            <div class="ImgFull">
+              <img src="images/galeria1.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="Mini">
+              <div class="Conjunto">
+                <div class="ImgMin1">
+                  <img src="images/galeria1.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="ImgMin2">
+                  <img src="images/galeria2.jpg" width="100%" height="100%" alt="">
+                </div>
+              </div>
+              <div class="Conjunto">
+                <div class="ImgMin3">
+                  <img src="images/galeria3.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div class="ImgMin4">
+                  <img src="images/galeria4.jpg" width="100%" height="100%" alt="">
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <scroll-page id="Equipe"></scroll-page>
+        <div class="Equipe container-fluid">
+          <div class="Titulo">
+            <h2>A Equipe</h2>
+          </div>
+          <div class="Integrantes row">
+            <div class="Integrante col-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="foto img1">
+              </div>
+              <h4>Cayo Gama</h4>
+              <p>Gestão do Projeto</p>
+            </div>
+            <div class="Integrante col-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="foto img2">
+              </div>
+              <h4>Marcos Martins</h4>
+              <p>Montagem do robô</p>
+            </div>
+            <div class="Integrante col-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="foto img3">
+              </div>
+              <h4>Jesus Ruescas</h4>
+              <p>Montagem do robô</p>
+            </div>
+            <div class="Integrante col-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="foto img4">
+              </div>
+              <h4>Thiago Cordeiro</h4>
+              <p>Pilotagem</p>
+            </div>
+          </div>
+        </div>
+        <scroll-page id="Contato"></scroll-page>
+        <div class="Contato">
+          <div class="Titulo">
+            <h2 class="white">Contato</h2>
+          </div>
+          <div class="ContatoConteudo">
+            <form class="Campos">
+              <fieldset>
+                <label for="Nome" class="white">Nome</label>
+                <input type="text" class="Campo" id="Nome" name="" value="">
+                <label for="Nome" class="white">Email</label>
+                <input type="text" class="Campo" id="Nome" name="" value="">
+                <label for="Nome" class="white">Assunto</label>
+                <input type="text" class="Campo" id="Nome" name="" value="">
+                <label for="Nome" class="white">Mensagem</label>
+                <textarea name="name" class="Campo" rows="8" cols="80"></textarea>
+                <button type="button" name="button">Enviar</button>
+              </fieldset>
+            </form>
+            <div class="Informacoes">
+              <h4 class="Info">Atendimento</h4>
+              <p class="Info">Quer tirar dúvidas, enviar sugestões ou solicitar um orçamento de nossos serviços? Entre em contato agora mesmo. Será um prazer atendê-lo!</p>
+              <h4 class="Ende">Endereço:</h4>
+              <p class="Ende">Av. Lins Vasconcelos, 1222 -  Aclimação, São Paulo - SP, 01538-001</p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <p>Copyright © 2019.Todos os direitos reservados.</p>
+        </footer>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/galeria.js">
+    </script>
+  </body>
+</html>
